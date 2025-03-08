@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Check Fonts</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="app.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1 align="center">কল্পনাক্ষর</h1>
+            <h3 align="center">
+                কোন ফন্ট ব্যবহারে আপনার লিখা দেখতে কি রকম হবে তা দেখে নিন
+            </h3>
+        </header>
+        <section class="font-choose-area">
+            <div class="font-choose">
+                <p><b>ফন্ট নির্বাচন করুন</b></p>
+                <p><b>ফন্ট কতটা গাঢ় হবে</b></p>
+                <button style="grid-row: span 2" id="change">
+                    <b>পরিবর্তন করুন</b>
+                </button>
+                <select name="font-name" id="font-name">
+                    <option value="Arial">Arial</option>
+                    <option value="Ador Noirrit">Ador Noirrit</option>
+                    <option value="Alinur Ullas">Alinur Ullas</option>
+                    <option value="Alinur Ichamati">Alinur Ichamati</option>
+                    <option value="Alinur Snigdha">Alinur Snigdha</option>
+                    <option value="Alinur Tumatul">Alinur Tumatul</option>
+                    <option value="Hasan Protilipi">Hasan Protilipi</option>
+                    <option value="Mahfuz Himadri">Mahfuz Himadri</option>
+                    <option value="Mainak Buniyadi">Mainak Buniyadi</option>
+                    <option value="Manowar Matribhumi">
+                        Manowar Matribhumi
+                    </option>
+                    <option value="Mayukh">Mayukh</option>
+                    <option value="Priyasha Bharot">Priyasha Bharot</option>
+                    <option value="Sabbir Ashalota">Sabbir Ashalota</option>
+                    <option value="SK Bishal">SK Bishal</option>
+                    <option value="Suparna">Suparna</option>
+                    <option value="Sweet Shreyam">Sweet Shreyam</option>
+                    <option value="Padmarag">Padmarag</option>
+                    <option value="Shadhinata">Shadhinata</option>
+                    <option value="Shohid Abu Sayed">Shohid Abu Sayed</option>
+                </select>
+                <input
+                    type="text"
+                    name="boldness"
+                    id="boldness"
+                    placeholder="100-900 (optional)"
+                />
+            </div>
+        </section>
+        <section class="font-dispaly-section">
+            <div class="font-display-area">
+                <h2>নিচে থেকে লিখা শুরু করুন</h2>
+                <textarea name="font-display" id="font-display">
+এখানে আপনি আপনার পছন্দের বাক্য লিখতে পারবেন এবং এখানে ইন্সটল করা আছে ডিফল্ট ফন্ট সহ ১৯ টি আলাদা আলাদা বাংলা ফন্ট। আপনি এখানে কিছু লিখে অথবা পূর্বলিখিত লিখাটির উপরি এটি পরীক্ষা করে দেখতে পারেন।
+
+প্রথমত, আপনার পছন্দ মত একটি ফন্ট নির্বাচন করুন
+এরপর, যদি আপনি চান তাহলে ফন্ট কতটা গাঢ় হবে তা দিতে পারেন, যদিও তা ঐচ্ছিক
+সর্বশেষ, "পরিবর্তন করুন" বাটনে চাপ দিন
+                </textarea>
+            </div>
+        </section>
+    </body>
+</html>
